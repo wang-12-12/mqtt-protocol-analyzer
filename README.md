@@ -39,6 +39,7 @@
 - │ └── analyzer.py # MQTT 协议分析器（核心）
 - ├── requirements.txt
 - └── README.md
+---
 ### 快速开始
 - 1. 创建虚拟环境
 **python -m venv .venv**
@@ -68,5 +69,6 @@
 - ✅ 存在 DISCONNECT 报文 (1 条)
 - ℹ️ 检测到 1 条 PINGREQ（心跳包）
 - 📁 详细结果已保存到: captures/analysis_result.csv
+-  6.调试阶段可使用 src/debug_analyzer.py 直接查看 tshark 原始输出，用于验证抓包文件与过滤条件是否匹配
 
 
